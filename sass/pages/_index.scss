@@ -1,0 +1,60 @@
+.construction{
+    
+    section{
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        
+        .container{
+            .row{
+                .col-12{
+                    .bio_wrap{
+                        h2{
+                            color: var(--text_secondary);
+                            padding-bottom: 1.5rem;
+                        }
+
+                        .bio_img{
+
+                        }
+
+                        .bio_description{
+                            padding-top: 3rem;
+                            p{
+                                color: var(--text_secondary);
+                            }
+
+                            .bio_info{
+                                padding-top: 0.5rem;
+                                p{
+                                    margin-bottom: 0.4rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    footer{
+        .footer_wrap{
+            .footer_content{
+                a{
+                    color: #6e6e6e;
+                }
+                font-size: 0.8rem;
+            }
+        }
+    }
+
+    @media only screen and (min-width: 767.99px){
+        footer{
+            .footer_wrap{
+                .footer_content{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}

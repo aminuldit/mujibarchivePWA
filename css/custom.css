@@ -1,0 +1,110 @@
+/* ===== Common SCSS ===== */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --bg_primary: #000000;
+  --text_secondary: #fff;
+  --danger: red;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html body {
+  background-color: var(--bg_primary);
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.7;
+  /* ==== Responsive ==== */
+}
+
+html body a {
+  text-decoration: none;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+html body a:hover {
+  text-decoration: underline;
+}
+
+html body h2 {
+  font-size: calc(1rem + 0.9vw);
+}
+
+html body p {
+  font-size: 0.8rem;
+}
+
+html body section {
+  padding: 3rem 0;
+}
+
+@media only screen and (min-width: 767.99px) {
+  html body h2 {
+    font-size: calc(1.25rem + 0.9vw);
+  }
+  html body p {
+    font-size: 1rem;
+  }
+  html body section {
+    padding: 6rem 0;
+  }
+}
+
+/* ===== Pages SCSS ===== */
+.construction section {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.construction section .container .row .col-12 .bio_wrap h2 {
+  color: var(--text_secondary);
+  padding-bottom: 1.5rem;
+}
+
+.construction section .container .row .col-12 .bio_wrap .bio_description {
+  padding-top: 3rem;
+}
+
+.construction section .container .row .col-12 .bio_wrap .bio_description p {
+  color: var(--text_secondary);
+}
+
+.construction section .container .row .col-12 .bio_wrap .bio_description .bio_info {
+  padding-top: 0.5rem;
+}
+
+.construction section .container .row .col-12 .bio_wrap .bio_description .bio_info p {
+  margin-bottom: 0.4rem;
+}
+
+.construction footer .footer_wrap .footer_content {
+  font-size: 0.8rem;
+}
+
+.construction footer .footer_wrap .footer_content a {
+  color: #6e6e6e;
+}
+
+@media only screen and (min-width: 767.99px) {
+  .construction footer .footer_wrap .footer_content {
+    font-size: 1rem;
+  }
+}
+/*# sourceMappingURL=custom.css.map */

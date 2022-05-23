@@ -1,0 +1,26 @@
+{
+    "name": "Mujib Archive",
+    "short_name": "MujibArchive",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#fff",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "images/favicon.ico",
+        "type": "image/favicon",
+        "sizes": "64x64"
+      },      
+      {
+        "src": "images/mujibicon296.png",
+        "type": "image/png",
+        "sizes": "360x360"
+      },     
+      {
+        "src": "images/mujibicon144.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      }     
+    ]
+  }
